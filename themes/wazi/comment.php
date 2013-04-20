@@ -3,7 +3,7 @@
 	<header class="comment-meta">
 		<h1 itemprop="description">
 			<span class="comment-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-				<img class="comment-avatar" itemprop="image" src="http://www.gravatar.com/avatar/<?php echo md5($content->email); ?>?size=50&d=identicon">
+				<img class="comment-avatar" itemprop="image" src="http://www.gravatar.com/avatar/<?php echo md5($content->email); ?>?size=50&amp;d=identicon" alt="">
 				<span itemprop="name">
 				<?php
 				$author = '%1$s';
